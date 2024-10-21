@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual-Tikz</title>
+    <link href = "./styles.css" rel = "stylesheet"></link>
+    <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script id = "tikzjax-script" src="https://tikzjax.com/v1/tikzjax.js"></script>
+</head>
+<body>
+    
+
+<div class="menu">
+    <div class = "container" id = "tikz-container">
+        <script type="text/tikz" id="tikz-picture">     
+            
+        </script>
+    </div>
+    <div class="options">
+        <button>Hello</button>
+    </div>
+</div> 
+
+<div class = "render-section">
+    <button class = "button" id = "render-button">
+        Render
+    </button>
+
+    <button class = "button" id = "generate-button">
+        Generate LaTeX Code
+    </button>
+</div>
+
+<script src = ./app.js></script>
+</body>
+</html> 
